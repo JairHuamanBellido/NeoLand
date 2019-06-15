@@ -2,8 +2,8 @@ import { Ball } from "./ball.js";
 
 let lastTime = 0;
 
-let bola1 =  new Ball(20,20,10,10);
-let bola2 =  new Ball(50,20,20,1);
+let bola1 =  new Ball(20,20,10,150,100);
+let bola2 =  new Ball(100,200,20,1,2);
 bola2.dibujar();
 
 
