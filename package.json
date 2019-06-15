@@ -1,0 +1,24 @@
+{
+  "name": "NeoLand",
+  "version": "1.0.0",
+  "description": "Un juego que pone a prueba tus reflejos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JairHuamanBellido/NeoLand.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JairHuamanBellido/NeoLand/issues"
+  },
+  "homepage": "https://github.com/JairHuamanBellido/NeoLand#readme",
+  "dependencies": {
+    "ejs": "2.6.1",
+    "express": "4.17.1"
+  }
+}
