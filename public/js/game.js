@@ -9,17 +9,9 @@ export class Game {
     }
 
     insertStick = () => {
-        
-        // this.canvas.addEventListener("mousemove", (e) => {
-        //     this.ctx.beginPath();
-        //     this.ctx.rect(e.x, e.y, 20, 20);
-        //     this.ctx.fillStyle = "red";
-        //     this.ctx.fill();
-        // })
-
         this.canvas.addEventListener("click", (e) => {
             console.log(e)            
-            ListSticks.agregarStick(new Stick(e.clientX,e.clientY))
+            ListSticks.agregarStick(new Stick(e.clientX,e.clientY,2,100))
         })
     }
 

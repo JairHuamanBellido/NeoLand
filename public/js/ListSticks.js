@@ -1,19 +1,23 @@
-class ListSticks{
+class ListSticks {
 
-    constructor(){
+    constructor() {
         this.arrList = [];
     }
 
 
-    
-    agregarStick = (Stick)=>{
+
+    agregarStick = (Stick) => {
         this.arrList.push(Stick);
     }
 
-    pintarSticks(){
-        this.arrList.forEach(obj=>{
+    pintarSticks() {
+        this.arrList.forEach(obj => {
             obj.pintar();
         })
     }
+
+    removeSitck = (Stick) => {
+        this.arrList = this.arrList.filter(obj => obj !== Stick);
+    }
 }
-export default new  ListSticks();
+export default new ListSticks();

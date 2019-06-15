@@ -4,7 +4,7 @@ import   listSticks from "./ListSticks.js";
 
 let lastTime = 0;
 
-let bola1 =  new Ball(20,20,10,200,210);
+let bola1 =  new Ball(20,20,10,100,100);
 let game =  new Game();
 
 
@@ -16,7 +16,7 @@ let gameloop = (timestamp)=>{
     game.limpiar();
     bola1.mover(deltatime);
     listSticks.pintarSticks();
-    
+        
     requestAnimationFrame(gameloop)
 }
 
