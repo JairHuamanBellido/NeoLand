@@ -48,7 +48,7 @@ export class Ball {
 
     mover = (deltatime) => {
 
-        board.ctx.clearRect(0,0,500,500);
+
         this.colisionesConTablero();
         this.update(deltatime);
         this.dibujar();
