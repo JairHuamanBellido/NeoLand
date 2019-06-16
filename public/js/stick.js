@@ -12,7 +12,7 @@ export class Stick {
     pintar() {
         this.ctx.beginPath();
         this.ctx.rect(this.x, this.y,this.width,this.height);
-        this.ctx.fillStyle = "#33ffaa";
+        this.ctx.fillStyle = "#ffffff";
         this.ctx.fill();
     }
 }

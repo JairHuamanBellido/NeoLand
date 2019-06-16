@@ -1,5 +1,6 @@
 import board from "./board.js";
 import ListSticks from "./ListSticks.js";
+
 export class Ball {
 
     constructor(x, y, radio, dx, dy) {
@@ -23,7 +24,7 @@ export class Ball {
         this.ctx.beginPath();
 
         this.ctx.arc(this.x, this.y, this.radio, 0, 2 * Math.PI);
-        this.ctx.fillStyle = "red";
+        this.ctx.fillStyle = "#33ffaa";
         this.ctx.fill();
 
 
@@ -91,4 +92,10 @@ export class Ball {
         this.y += (this.dy / deltatime);
     }
 
+    setAllValues = (x,y,dx,dy)=>{
+        this.x = x;
+        this.y = y;
+        this.dx = dx;
+        this.dy = dy;
+    }
 }

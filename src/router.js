@@ -6,6 +6,8 @@ router.get('/', (req,res)=>{
     res.render('home');
 })
 
-
+router.get('/room',(req,res)=>{
+    res.render('room');
+})
 module.exports.Router = router;
 
